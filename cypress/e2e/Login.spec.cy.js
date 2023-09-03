@@ -5,7 +5,7 @@ describe ("Login", () => {
 
     it("TC01 - Registrar novo usuário com dados válidos", () => {
         //Para cada vez que esse teste for realizado, o email deve ser alterado, caso não seja dará um erro informando que o usuário já existe
-        loginPage.Email.type("cocada1235667@gmail.com");
+        loginPage.Email.type("cocada93475@gmail.com");
         loginPage.Create.click();
         loginPage.Gender.click();
         loginPage.FirstName.type("Pedro Henrique");
