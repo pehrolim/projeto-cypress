@@ -34,7 +34,7 @@ describe ("Login", () => {
         cy.get('.alert').should('be.visible')
     });
 
-    it.only("TC04 - Realizar login com dados válidos", () => {
+    it("TC04 - Realizar login com dados válidos", () => {
         cy.get("#email").type("cocada1235667@gmail.com")
         cy.get('#passwd').type("12345")
         cy.get('#SubmitLogin > span').click()
